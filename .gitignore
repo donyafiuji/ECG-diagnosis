@@ -1,0 +1,11 @@
+/.ipynb_checkpoints
+/.~lock.ptbxl_database.csv#
+/.~lock.scp_statements.csv#
+/LICENSE.txt
+/RECORDS
+/SHA256SUMS.txt
+/example_physionet.py
+/ptbxl_v102_changelog.txt
+/ptbxl_v103_changelog.txt
+/records100
+/records500

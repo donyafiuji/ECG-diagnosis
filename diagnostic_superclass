@@ -153,7 +153,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['MI']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -182,7 +182,7 @@ diagnostic_superclass
 ['CD']
 ['MI']
 []
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -209,11 +209,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -226,8 +226,8 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -273,7 +273,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
 ['CD']
@@ -282,7 +282,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -338,9 +338,9 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['STTC']
 ['NORM']
@@ -353,7 +353,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -411,10 +411,10 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -464,7 +464,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -486,7 +486,7 @@ diagnostic_superclass
 ['NORM']
 []
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['HYP']
 ['STTC']
@@ -510,7 +510,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 "['CD', 'STTC']"
@@ -531,13 +531,13 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -572,7 +572,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -612,7 +612,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -634,7 +634,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -690,17 +690,17 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['CD']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['MI']
 ['STTC']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'HYP']"
 ['CD']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 "['STTC', 'MI']"
@@ -712,8 +712,8 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['CD']
@@ -724,7 +724,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['HYP']
@@ -748,7 +748,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['STTC', 'MI']"
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -756,7 +756,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 "['CD', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -800,7 +800,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -811,7 +811,7 @@ diagnostic_superclass
 ['CD']
 "['CD', 'STTC']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
@@ -828,7 +828,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -842,7 +842,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['STTC', 'MI']"
 ['HYP']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['HYP', 'STTC']"
 []
 "['CD', 'STTC']"
@@ -866,9 +866,9 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['CD']
 ['NORM']
 "['HYP', 'STTC']"
@@ -917,7 +917,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['STTC']
@@ -950,13 +950,13 @@ diagnostic_superclass
 ['NORM']
 "['STTC', 'MI']"
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -992,7 +992,7 @@ diagnostic_superclass
 ['NORM']
 ['HYP']
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -1011,7 +1011,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -1019,20 +1019,20 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['HYP']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'STTC']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['HYP', 'STTC']"
 "['CD', 'MI']"
@@ -1100,7 +1100,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1118,12 +1118,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['CD']
 ['STTC']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -1135,7 +1135,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['STTC']
 ['NORM']
@@ -1157,7 +1157,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 []
 ['NORM']
@@ -1174,8 +1174,8 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1188,7 +1188,7 @@ diagnostic_superclass
 "['HYP', 'MI']"
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
@@ -1206,7 +1206,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
@@ -1222,9 +1222,9 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
 ['NORM']
@@ -1323,7 +1323,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 ['NORM']
@@ -1340,12 +1340,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -1366,7 +1366,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1376,7 +1376,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 "['CD', 'STTC']"
 ['MI']
@@ -1389,7 +1389,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['MI']
 ['NORM']
@@ -1403,12 +1403,12 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
 ['MI']
@@ -1429,7 +1429,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['STTC']
 ['NORM']
@@ -1450,14 +1450,14 @@ diagnostic_superclass
 []
 ['NORM']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['CD']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 ['MI']
@@ -1478,7 +1478,7 @@ diagnostic_superclass
 ['STTC']
 "['STTC', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1502,8 +1502,8 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 "['STTC', 'MI']"
-"['NORM', 'STTC', 'CD']"
-"['NORM', 'STTC']"
+"['CD', 'STTC', 'NORM']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -1535,16 +1535,16 @@ diagnostic_superclass
 ['STTC']
 "['CD', 'MI']"
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['STTC']
 ['NORM']
 "['HYP', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1553,7 +1553,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
 ['CD']
@@ -1561,7 +1561,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['MI']
 ['NORM']
@@ -1581,7 +1581,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['STTC']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 []
 ['NORM']
 ['NORM']
@@ -1615,7 +1615,7 @@ diagnostic_superclass
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1628,7 +1628,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 []
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -1665,12 +1665,12 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['NORM']
 ['MI']
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['HYP', 'MI']"
@@ -1742,7 +1742,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['STTC']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -1791,7 +1791,7 @@ diagnostic_superclass
 ['CD']
 "['HYP', 'STTC']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['STTC']
 ['NORM']
@@ -1799,16 +1799,16 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['STTC']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'STTC']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1849,7 +1849,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -1865,7 +1865,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
@@ -1878,12 +1878,12 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['STTC', 'MI']"
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -1907,7 +1907,7 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['STTC']
 ['STTC']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -1940,7 +1940,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -1968,7 +1968,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['STTC']
 "['CD', 'STTC', 'MI']"
@@ -2033,7 +2033,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
 "['STTC', 'MI']"
@@ -2053,7 +2053,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -2097,9 +2097,9 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['MI']
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -2109,7 +2109,7 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['CD']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'MI']"
 ['STTC']
 ['NORM']
@@ -2145,13 +2145,13 @@ diagnostic_superclass
 ['CD']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2177,12 +2177,12 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -2208,7 +2208,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['CD']
@@ -2235,12 +2235,12 @@ diagnostic_superclass
 ['HYP']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 "['CD', 'MI']"
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['STTC']
 ['STTC']
@@ -2250,7 +2250,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2286,7 +2286,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2299,7 +2299,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2310,7 +2310,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2330,7 +2330,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -2354,7 +2354,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['CD']
@@ -2371,7 +2371,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2395,10 +2395,10 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['CD']
-"['HYP', 'STTC', 'CD']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -2407,14 +2407,14 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['NORM']
 ['MI']
 ['MI']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 []
 ['NORM']
@@ -2428,10 +2428,10 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['MI']
@@ -2454,7 +2454,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 "['CD', 'MI']"
 "['CD', 'MI']"
@@ -2463,7 +2463,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -2515,8 +2515,8 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
-"['HYP', 'CD']"
 "['CD', 'HYP']"
+"['CD', 'HYP']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -2528,13 +2528,13 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -2572,7 +2572,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['CD', 'MI']"
 []
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 ['MI']
@@ -2637,7 +2637,7 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 "['CD', 'MI']"
 ['MI']
@@ -2686,10 +2686,10 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['MI']
 ['NORM']
@@ -2699,7 +2699,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['CD']
 "['CD', 'STTC']"
@@ -2751,7 +2751,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -2778,12 +2778,12 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['NORM']
 ['STTC']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -2800,14 +2800,14 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 ['CD']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['STTC']
 ['NORM']
@@ -2817,7 +2817,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -2852,8 +2852,8 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -2889,11 +2889,11 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['NORM']
@@ -2969,7 +2969,7 @@ diagnostic_superclass
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -2983,25 +2983,25 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
@@ -3019,7 +3019,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 "['HYP', 'STTC']"
@@ -3033,7 +3033,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'HYP']"
 ['STTC']
 ['MI']
@@ -3049,7 +3049,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -3097,7 +3097,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -3107,7 +3107,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -3124,7 +3124,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -3154,7 +3154,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['CD']
 ['MI']
@@ -3180,7 +3180,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['MI']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -3190,7 +3190,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['HYP']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 "['CD', 'STTC', 'MI']"
@@ -3217,12 +3217,12 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['MI']
@@ -3232,7 +3232,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 "['HYP', 'STTC']"
 ['CD']
@@ -3259,7 +3259,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
 "['CD', 'MI']"
@@ -3283,7 +3283,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -3307,11 +3307,11 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 ['STTC']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
@@ -3322,7 +3322,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['CD', 'STTC']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'MI']"
 "['HYP', 'STTC']"
 ['STTC']
@@ -3330,8 +3330,8 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
-"['NORM', 'STTC']"
+"['CD', 'HYP', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -3401,14 +3401,14 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
 ['HYP']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['STTC']
 "['CD', 'MI']"
@@ -3452,9 +3452,9 @@ diagnostic_superclass
 ['HYP']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -3470,7 +3470,7 @@ diagnostic_superclass
 ['HYP']
 "['CD', 'STTC']"
 ['NORM']
-"['NORM', 'CD', 'HYP']"
+"['CD', 'HYP', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -3581,11 +3581,11 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['STTC']
@@ -3619,7 +3619,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['HYP']
 "['CD', 'MI']"
@@ -3661,7 +3661,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['NORM']
 ['STTC']
@@ -3672,7 +3672,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['STTC', 'MI']"
 ['STTC']
 ['NORM']
@@ -3724,14 +3724,14 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -3761,7 +3761,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -3789,7 +3789,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -3803,20 +3803,20 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 "['STTC', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
 ['CD']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 ['NORM']
 ['HYP']
@@ -3836,7 +3836,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['CD']
@@ -3851,7 +3851,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['MI']
@@ -3867,8 +3867,8 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'MI']"
 ['NORM']
@@ -3880,7 +3880,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -3912,14 +3912,14 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -3930,8 +3930,8 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
-"['NORM', 'STTC']"
+"['CD', 'NORM']"
+"['STTC', 'NORM']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -3944,7 +3944,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 "['HYP', 'STTC', 'MI']"
@@ -3956,9 +3956,9 @@ diagnostic_superclass
 ['NORM']
 ['HYP']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
@@ -3989,11 +3989,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['HYP']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 "['HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
@@ -4010,7 +4010,7 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -4060,7 +4060,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
@@ -4077,7 +4077,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['MI']
 ['NORM']
@@ -4086,7 +4086,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC']"
 ['STTC']
 ['NORM']
@@ -4146,7 +4146,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD', 'HYP']"
+"['CD', 'HYP', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -4224,7 +4224,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -4309,32 +4309,32 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 "['CD', 'STTC']"
 "['STTC', 'MI']"
 ['STTC']
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['HYP', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'HYP']"
+"['HYP', 'NORM']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -4355,7 +4355,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
@@ -4376,7 +4376,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 "['HYP', 'STTC']"
 ['MI']
@@ -4401,7 +4401,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 "['HYP', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 ['HYP']
 ['CD']
@@ -4439,7 +4439,7 @@ diagnostic_superclass
 ['STTC']
 ['HYP']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 []
@@ -4529,7 +4529,7 @@ diagnostic_superclass
 ['HYP']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 ['NORM']
@@ -4550,7 +4550,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['HYP']
 ['NORM']
 ['CD']
@@ -4579,7 +4579,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'HYP']"
 ['CD']
@@ -4589,7 +4589,7 @@ diagnostic_superclass
 ['MI']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['CD']
 ['NORM']
@@ -4671,7 +4671,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'MI']"
 "['STTC', 'MI']"
 ['STTC']
@@ -4690,9 +4690,9 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['MI']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -4707,7 +4707,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['STTC']
 ['NORM']
@@ -4719,7 +4719,7 @@ diagnostic_superclass
 ['STTC']
 ['HYP']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['CD']
@@ -4739,7 +4739,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['STTC']
 ['STTC']
 "['HYP', 'STTC']"
@@ -4755,11 +4755,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -4773,7 +4773,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['CD']
 ['STTC']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'MI']"
 ['MI']
 ['STTC']
@@ -4829,7 +4829,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 ['MI']
@@ -4847,11 +4847,11 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['STTC', 'MI']"
 ['MI']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 []
 ['NORM']
@@ -4888,7 +4888,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -4928,14 +4928,14 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
@@ -4947,18 +4947,18 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['HYP']
 "['CD', 'MI']"
 []
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
-"['NORM', 'STTC']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['STTC', 'NORM']"
 ['NORM']
 "['HYP', 'MI']"
 ['NORM']
@@ -4967,14 +4967,14 @@ diagnostic_superclass
 ['CD']
 ['HYP']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['MI']
 "['CD', 'STTC']"
 "['CD', 'MI']"
 "['HYP', 'STTC']"
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 "['HYP', 'STTC']"
 ['HYP']
@@ -4988,7 +4988,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -4999,7 +4999,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
@@ -5013,14 +5013,14 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['STTC', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['MI']
 ['NORM']
@@ -5031,17 +5031,17 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['STTC']
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'HYP']"
 ['NORM']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 "['HYP', 'STTC', 'MI']"
@@ -5049,7 +5049,7 @@ diagnostic_superclass
 ['NORM']
 []
 "['CD', 'MI']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 "['STTC', 'MI']"
 "['CD', 'MI']"
@@ -5075,7 +5075,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['CD']
 ['CD']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -5086,7 +5086,7 @@ diagnostic_superclass
 ['NORM']
 ['HYP']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['MI']
 ['NORM']
@@ -5096,7 +5096,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['CD']
 ['STTC']
@@ -5142,7 +5142,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -5229,7 +5229,7 @@ diagnostic_superclass
 ['MI']
 "['STTC', 'MI']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 []
 ['NORM']
@@ -5239,7 +5239,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -5276,7 +5276,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -5293,7 +5293,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -5301,7 +5301,7 @@ diagnostic_superclass
 ['STTC']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['NORM']
 ['STTC']
@@ -5313,7 +5313,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC']"
 ['NORM']
 ['CD']
@@ -5322,7 +5322,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 "['CD', 'STTC']"
 "['CD', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -5380,7 +5380,7 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
@@ -5495,7 +5495,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'STTC']"
 ['NORM']
@@ -5506,12 +5506,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 []
 ['NORM']
 ['MI']
@@ -5525,7 +5525,7 @@ diagnostic_superclass
 "['HYP', 'MI']"
 []
 "['CD', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 []
 ['NORM']
 ['NORM']
@@ -5610,13 +5610,13 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['MI']
 []
 ['MI']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['MI']
@@ -5632,7 +5632,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -5663,10 +5663,10 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['HYP']
 ['HYP']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 "['CD', 'MI']"
@@ -5685,12 +5685,12 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['CD']
 ['STTC']
@@ -5715,9 +5715,9 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'STTC', 'MI']"
 ['NORM']
@@ -5790,7 +5790,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -5858,7 +5858,7 @@ diagnostic_superclass
 ['STTC']
 "['STTC', 'MI']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['NORM']
 ['MI']
@@ -5901,17 +5901,17 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['NORM']
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['MI']
@@ -5939,7 +5939,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -5980,7 +5980,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6001,7 +6001,7 @@ diagnostic_superclass
 ['STTC']
 ['HYP']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -6017,9 +6017,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
@@ -6038,10 +6038,10 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
@@ -6070,7 +6070,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 "['CD', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6084,10 +6084,10 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'HYP']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -6107,7 +6107,7 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -6116,7 +6116,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 "['HYP', 'STTC']"
@@ -6160,7 +6160,7 @@ diagnostic_superclass
 []
 ['HYP']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -6175,14 +6175,14 @@ diagnostic_superclass
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['MI']
 ['NORM']
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -6231,7 +6231,7 @@ diagnostic_superclass
 ['HYP']
 "['CD', 'MI']"
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
@@ -6241,7 +6241,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6253,7 +6253,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -6287,7 +6287,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -6300,18 +6300,18 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['STTC']
 ['NORM']
@@ -6336,10 +6336,10 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6367,7 +6367,7 @@ diagnostic_superclass
 []
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -6378,7 +6378,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
@@ -6390,7 +6390,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['STTC', 'MI']"
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6398,7 +6398,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['NORM']
@@ -6410,7 +6410,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'HYP']"
 ['NORM']
 ['STTC']
@@ -6442,14 +6442,14 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'MI']"
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 ['STTC']
 ['NORM']
@@ -6458,7 +6458,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -6503,12 +6503,12 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 "['CD', 'STTC']"
@@ -6518,7 +6518,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['CD']
 "['CD', 'MI']"
@@ -6624,9 +6624,9 @@ diagnostic_superclass
 ['STTC']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'MI']"
 ['NORM']
 ['NORM']
@@ -6660,7 +6660,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['CD']
 ['HYP']
@@ -6669,7 +6669,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['CD']
 ['NORM']
@@ -6700,7 +6700,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -6733,7 +6733,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -6815,7 +6815,7 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'MI']"
@@ -6847,7 +6847,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -6859,7 +6859,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -6870,7 +6870,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['STTC']
 ['CD']
@@ -6947,7 +6947,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC']"
 ['NORM']
 "['HYP', 'STTC']"
@@ -7004,7 +7004,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['MI']
 ['MI']
@@ -7018,11 +7018,11 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['MI']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -7041,7 +7041,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['MI']
 ['CD']
@@ -7052,7 +7052,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['STTC']
 ['NORM']
@@ -7070,7 +7070,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
 ['CD']
@@ -7081,7 +7081,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'STTC', 'MI']"
 ['NORM']
@@ -7106,7 +7106,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -7150,7 +7150,7 @@ diagnostic_superclass
 "['HYP', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['CD']
 ['MI']
@@ -7167,7 +7167,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['STTC']
 ['CD']
@@ -7228,12 +7228,12 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
 ['STTC']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -7243,17 +7243,17 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['HYP', 'STTC']"
 ['HYP']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'NORM']"
 ['MI']
 "['CD', 'MI']"
 ['MI']
@@ -7381,7 +7381,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
@@ -7392,7 +7392,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 []
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -7406,7 +7406,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['NORM']
 "['STTC', 'MI']"
@@ -7428,7 +7428,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -7443,14 +7443,14 @@ diagnostic_superclass
 []
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 ['MI']
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -7496,7 +7496,7 @@ diagnostic_superclass
 ['STTC']
 "['CD', 'MI']"
 []
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['NORM']
 ['MI']
@@ -7551,7 +7551,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['MI']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -7576,7 +7576,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 "['CD', 'STTC', 'MI']"
@@ -7597,7 +7597,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -7636,15 +7636,15 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['CD']
 ['STTC']
-"['NORM', 'STTC', 'CD']"
+"['CD', 'STTC', 'NORM']"
 ['MI']
 "['CD', 'MI']"
 ['NORM']
@@ -7664,9 +7664,9 @@ diagnostic_superclass
 ['MI']
 ['HYP']
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -7678,7 +7678,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'STTC']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -7693,7 +7693,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -7741,11 +7741,11 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['CD', 'HYP']"
 ['NORM']
@@ -7756,7 +7756,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 []
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 []
 ['NORM']
@@ -7777,7 +7777,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -7809,7 +7809,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['CD']
@@ -7818,7 +7818,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 "['CD', 'MI']"
@@ -7848,7 +7848,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -7865,7 +7865,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 []
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
@@ -7877,7 +7877,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['HYP', 'MI']"
 ['NORM']
@@ -7894,11 +7894,11 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -7920,7 +7920,7 @@ diagnostic_superclass
 ['NORM']
 ['HYP']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC']"
 ['STTC']
 ['NORM']
@@ -7933,26 +7933,26 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'MI']"
 ['CD']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -7974,14 +7974,14 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 "['CD', 'MI']"
 ['STTC']
 ['STTC']
 ['HYP']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
@@ -7989,7 +7989,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'STTC']"
 ['HYP']
@@ -8037,18 +8037,18 @@ diagnostic_superclass
 ['STTC']
 []
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -8056,7 +8056,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['HYP']
 ['NORM']
@@ -8076,7 +8076,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['NORM']
@@ -8086,7 +8086,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -8156,7 +8156,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'MI']"
 ['NORM']
 ['NORM']
@@ -8164,7 +8164,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -8219,16 +8219,16 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['STTC']
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -8236,7 +8236,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 []
 ['NORM']
@@ -8245,8 +8245,8 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC']"
 "['CD', 'STTC']"
 ['CD']
@@ -8264,7 +8264,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 "['CD', 'HYP']"
@@ -8315,7 +8315,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 ['NORM']
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['CD']
@@ -8358,7 +8358,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['NORM']
@@ -8370,7 +8370,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['HYP']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -8381,7 +8381,7 @@ diagnostic_superclass
 ['MI']
 "['HYP', 'STTC']"
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -8397,7 +8397,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['MI']
@@ -8412,9 +8412,9 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -8458,9 +8458,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
@@ -8468,7 +8468,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
@@ -8487,14 +8487,14 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 ['MI']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -8507,7 +8507,7 @@ diagnostic_superclass
 ['STTC']
 []
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -8526,7 +8526,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -8542,11 +8542,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -8613,7 +8613,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 "['STTC', 'MI']"
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['MI']
@@ -8632,12 +8632,12 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -8659,7 +8659,7 @@ diagnostic_superclass
 ['CD']
 "['HYP', 'STTC']"
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['CD']
 ['MI']
@@ -8683,23 +8683,23 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 "['STTC', 'MI']"
 ['NORM']
@@ -8719,7 +8719,7 @@ diagnostic_superclass
 ['CD']
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 "['HYP', 'STTC']"
@@ -8745,7 +8745,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'MI']"
 ['MI']
@@ -8757,7 +8757,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -8765,7 +8765,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['MI']
@@ -8774,7 +8774,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['MI']
 ['MI']
@@ -8790,7 +8790,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['CD', 'STTC']"
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['CD']
@@ -8835,14 +8835,14 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['CD']
 "['HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
-"['CD', 'STTC', 'HYP']"
-"['NORM', 'STTC']"
+"['CD', 'HYP', 'STTC']"
+"['STTC', 'NORM']"
 ['CD']
 "['HYP', 'STTC']"
 ['NORM']
@@ -8852,10 +8852,10 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['HYP']
 ['CD']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['STTC', 'MI']"
 "['CD', 'MI']"
 ['MI']
@@ -8886,7 +8886,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['MI']
 ['NORM']
@@ -8958,7 +8958,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['STTC']
@@ -8969,9 +8969,9 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
@@ -9046,24 +9046,24 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 "['CD', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'STTC', 'CD']"
+"['CD', 'STTC', 'NORM']"
 ['STTC']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -9092,7 +9092,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -9110,7 +9110,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 ['NORM']
 ['MI']
@@ -9122,7 +9122,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['HYP', 'MI']"
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -9164,8 +9164,8 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['HYP', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'HYP']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['STTC']
@@ -9227,9 +9227,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
 ['NORM']
@@ -9252,7 +9252,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'HYP']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -9269,7 +9269,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['CD']
 "['CD', 'MI']"
@@ -9277,11 +9277,11 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
@@ -9289,7 +9289,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -9330,7 +9330,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['MI']
 ['NORM']
@@ -9347,7 +9347,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'HYP']"
@@ -9442,14 +9442,14 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -9469,7 +9469,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'HYP']"
 ['NORM']
@@ -9520,7 +9520,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 "['CD', 'STTC', 'MI']"
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['MI']
@@ -9594,20 +9594,20 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['MI']
 ['NORM']
 "['CD', 'HYP']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['MI']
 ['NORM']
@@ -9616,13 +9616,13 @@ diagnostic_superclass
 ['CD']
 ['CD']
 "['CD', 'STTC', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['MI']
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['STTC']
 "['HYP', 'STTC']"
@@ -9631,7 +9631,7 @@ diagnostic_superclass
 ['MI']
 "['HYP', 'STTC']"
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['NORM']
 ['CD']
@@ -9647,7 +9647,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -9688,7 +9688,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['HYP']
 "['STTC', 'MI']"
 ['STTC']
@@ -9717,7 +9717,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -9730,7 +9730,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
@@ -9744,7 +9744,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -9791,7 +9791,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -9842,7 +9842,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
@@ -9867,7 +9867,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -9881,7 +9881,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -9904,11 +9904,11 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -9978,21 +9978,21 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
 ['CD']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 ['NORM']
@@ -10008,7 +10008,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -10017,12 +10017,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'STTC']"
 ['MI']
 ['MI']
-"['CD', 'MI', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'HYP', 'MI']"
+"['CD', 'NORM']"
 "['CD', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['CD']
@@ -10033,7 +10033,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 "['HYP', 'STTC']"
 ['NORM']
@@ -10095,7 +10095,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -10140,12 +10140,12 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['HYP']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -10157,7 +10157,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -10173,9 +10173,9 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC', 'MI']"
 ['HYP']
 ['NORM']
@@ -10208,7 +10208,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['CD']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -10219,15 +10219,15 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['CD']
-"['HYP', 'CD']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
+"['CD', 'HYP']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
 ['CD']
 ['STTC']
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -10258,7 +10258,7 @@ diagnostic_superclass
 ['CD']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['STTC']
 ['NORM']
@@ -10316,7 +10316,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['HYP', 'MI']"
 "['CD', 'MI']"
@@ -10326,10 +10326,10 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['CD']
@@ -10349,7 +10349,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['NORM']
@@ -10375,7 +10375,7 @@ diagnostic_superclass
 "['HYP', 'MI']"
 "['CD', 'STTC']"
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 "['CD', 'MI']"
@@ -10389,9 +10389,9 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 "['HYP', 'STTC', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -10402,7 +10402,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -10461,7 +10461,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'HYP']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -10478,7 +10478,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -10501,7 +10501,7 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -10511,7 +10511,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
 "['CD', 'MI']"
@@ -10531,14 +10531,14 @@ diagnostic_superclass
 []
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['HYP']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 []
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['STTC', 'MI']"
 ['CD']
@@ -10570,7 +10570,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'HYP']"
@@ -10605,7 +10605,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
@@ -10667,12 +10667,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['HYP']
 ['HYP']
@@ -10717,7 +10717,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -10725,7 +10725,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['CD', 'STTC']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['CD']
 "['STTC', 'MI']"
 ['NORM']
@@ -10737,8 +10737,8 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 "['HYP', 'STTC']"
-"['HYP', 'CD']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -10774,7 +10774,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['CD', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -10809,12 +10809,12 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -10866,8 +10866,8 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['CD', 'MI']"
-"['CD', 'STTC', 'HYP']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['CD']
 "['CD', 'MI']"
@@ -10922,7 +10922,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['MI']
@@ -10941,15 +10941,15 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 "['STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['CD']
@@ -10959,7 +10959,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 []
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -10989,7 +10989,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['HYP', 'STTC']"
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['MI']
 "['CD', 'MI']"
 "['CD', 'HYP']"
@@ -10997,7 +10997,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['STTC', 'MI']"
 ['NORM']
 ['CD']
@@ -11006,7 +11006,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 "['HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['STTC']
 "['STTC', 'MI']"
@@ -11020,7 +11020,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -11050,14 +11050,14 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 []
 "['CD', 'STTC']"
 ['NORM']
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -11069,11 +11069,11 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['CD']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['CD']
 "['CD', 'STTC', 'MI']"
@@ -11082,7 +11082,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 "['CD', 'STTC', 'MI']"
 "['CD', 'HYP']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -11092,7 +11092,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'HYP']"
@@ -11118,7 +11118,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -11132,7 +11132,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['MI']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['STTC']
 ['HYP']
@@ -11157,7 +11157,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['CD', 'MI']"
 ['NORM']
@@ -11181,15 +11181,15 @@ diagnostic_superclass
 ['MI']
 "['HYP', 'STTC']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 "['CD', 'MI']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['STTC']
 "['CD', 'MI']"
@@ -11207,7 +11207,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 []
 ['MI']
 ['MI']
@@ -11264,7 +11264,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['NORM']
 ['CD']
@@ -11275,7 +11275,7 @@ diagnostic_superclass
 ['CD']
 "['CD', 'MI']"
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -11319,7 +11319,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 "['CD', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -11367,9 +11367,9 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
@@ -11381,7 +11381,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['NORM']
 "['CD', 'STTC']"
@@ -11395,7 +11395,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['MI']
@@ -11405,7 +11405,7 @@ diagnostic_superclass
 ['CD']
 "['HYP', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['CD']
@@ -11426,7 +11426,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -11434,7 +11434,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['MI']
 ['NORM']
@@ -11444,7 +11444,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['CD']
 ['CD']
@@ -11463,12 +11463,12 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['STTC']
 "['CD', 'HYP']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
@@ -11480,7 +11480,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 []
 ['NORM']
@@ -11494,7 +11494,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['MI']
@@ -11512,14 +11512,14 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 ['MI']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -11558,7 +11558,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'MI']"
 ['STTC']
@@ -11580,11 +11580,11 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -11608,7 +11608,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['CD', 'MI']"
 ['STTC']
@@ -11648,12 +11648,12 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -11675,7 +11675,7 @@ diagnostic_superclass
 []
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -11705,7 +11705,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -11774,7 +11774,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -11788,16 +11788,16 @@ diagnostic_superclass
 ['CD']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 "['CD', 'MI']"
@@ -11805,7 +11805,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['STTC']
 ['MI']
@@ -11849,7 +11849,7 @@ diagnostic_superclass
 []
 ['MI']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -11880,7 +11880,7 @@ diagnostic_superclass
 ['CD']
 []
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 []
 ['STTC']
@@ -11899,13 +11899,13 @@ diagnostic_superclass
 "['HYP', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['NORM', 'STTC', 'CD']"
+"['CD', 'STTC', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -11946,7 +11946,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'MI']"
 []
@@ -11958,7 +11958,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['CD']
@@ -11972,7 +11972,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -11989,7 +11989,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 "['CD', 'MI']"
 "['CD', 'HYP']"
@@ -12015,7 +12015,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -12024,13 +12024,13 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -12049,7 +12049,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 ['MI']
 []
@@ -12060,7 +12060,7 @@ diagnostic_superclass
 ['MI']
 ['CD']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['CD']
@@ -12097,7 +12097,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -12115,9 +12115,9 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'STTC', 'CD']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['MI']
@@ -12142,11 +12142,11 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -12194,7 +12194,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -12240,10 +12240,10 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -12266,14 +12266,14 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['HYP']
 ['CD']
 ['STTC']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'MI']"
 ['CD']
@@ -12286,7 +12286,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -12308,8 +12308,8 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['STTC']
 ['MI']
-"['HYP', 'CD']"
 "['CD', 'HYP']"
+"['CD', 'HYP']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -12363,15 +12363,15 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['MI']
 ['NORM']
@@ -12386,7 +12386,7 @@ diagnostic_superclass
 ['STTC']
 ['CD']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 "['CD', 'STTC', 'MI']"
@@ -12399,7 +12399,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['HYP']
 "['CD', 'MI']"
@@ -12474,7 +12474,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['HYP']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 "['STTC', 'MI']"
@@ -12482,7 +12482,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 []
 ['NORM']
 ['CD']
@@ -12497,7 +12497,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 []
 "['STTC', 'MI']"
@@ -12511,21 +12511,21 @@ diagnostic_superclass
 ['NORM']
 []
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['HYP']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 "['CD', 'MI']"
 "['STTC', 'MI']"
@@ -12540,7 +12540,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 "['CD', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -12560,13 +12560,13 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['STTC']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 []
@@ -12635,7 +12635,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['STTC']
 "['CD', 'MI']"
@@ -12646,7 +12646,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['STTC']
 "['CD', 'STTC']"
@@ -12655,7 +12655,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 []
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -12726,7 +12726,7 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'HYP']"
 ['CD']
@@ -12749,13 +12749,13 @@ diagnostic_superclass
 ['STTC']
 "['CD', 'STTC', 'MI']"
 ['HYP']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
 ['STTC']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
@@ -12817,19 +12817,19 @@ diagnostic_superclass
 []
 "['STTC', 'MI']"
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 "['HYP', 'STTC']"
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['CD']
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -12844,7 +12844,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 []
 ['NORM']
@@ -12859,7 +12859,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 []
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['HYP']
 "['HYP', 'STTC', 'MI']"
@@ -12886,7 +12886,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['CD']
 "['HYP', 'STTC']"
@@ -12895,7 +12895,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -12906,7 +12906,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['CD']
 ['HYP']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 ['MI']
 ['CD']
@@ -12969,7 +12969,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -13019,7 +13019,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['MI']
 ['MI']
@@ -13031,10 +13031,10 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
@@ -13046,7 +13046,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -13089,12 +13089,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -13115,7 +13115,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['MI']
@@ -13157,9 +13157,9 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 ['NORM']
 ['NORM']
@@ -13175,7 +13175,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -13189,7 +13189,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['MI']
 ['MI']
@@ -13206,14 +13206,14 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
 ['MI']
 "['HYP', 'STTC']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC']"
 "['CD', 'STTC']"
 "['CD', 'MI']"
@@ -13245,15 +13245,15 @@ diagnostic_superclass
 "['CD', 'STTC']"
 "['HYP', 'STTC']"
 ['CD']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 ['CD']
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['MI']
@@ -13276,12 +13276,12 @@ diagnostic_superclass
 ['MI']
 "['CD', 'STTC']"
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13319,7 +13319,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13336,7 +13336,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -13393,7 +13393,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 "['HYP', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -13473,7 +13473,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 []
 ['NORM']
 ['NORM']
@@ -13482,7 +13482,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['HYP']
 "['CD', 'MI']"
@@ -13523,7 +13523,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['MI']
@@ -13531,7 +13531,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['MI']
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
@@ -13550,7 +13550,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['MI']
 ['MI']
@@ -13576,7 +13576,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -13600,7 +13600,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 "['CD', 'STTC', 'MI']"
 ['NORM']
@@ -13611,7 +13611,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13632,7 +13632,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -13652,7 +13652,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -13669,11 +13669,11 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13692,7 +13692,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -13704,7 +13704,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -13718,7 +13718,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13736,7 +13736,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['MI']
 ['STTC']
@@ -13751,13 +13751,13 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
 "['CD', 'MI']"
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -13774,7 +13774,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['STTC']
 ['MI']
@@ -13853,7 +13853,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['HYP']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -13868,7 +13868,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'HYP']"
 ['NORM']
@@ -13931,7 +13931,7 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -13945,7 +13945,7 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -13966,7 +13966,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['MI']
@@ -13987,7 +13987,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -13998,7 +13998,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 "['HYP', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -14027,7 +14027,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -14058,8 +14058,8 @@ diagnostic_superclass
 "['CD', 'STTC', 'MI']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['CD']
@@ -14067,7 +14067,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -14109,13 +14109,13 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -14124,7 +14124,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -14162,8 +14162,8 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['CD']
 ['NORM']
@@ -14173,12 +14173,12 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['CD']
@@ -14250,11 +14250,11 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['STTC', 'MI']"
 ['STTC']
-"['NORM', 'CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI', 'NORM']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -14296,7 +14296,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['CD']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['HYP']
 "['HYP', 'MI']"
 ['NORM']
@@ -14331,7 +14331,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 "['CD', 'MI']"
 ['NORM']
@@ -14345,7 +14345,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -14376,12 +14376,12 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 "['HYP', 'STTC']"
 "['HYP', 'STTC']"
@@ -14452,7 +14452,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['STTC']
 "['CD', 'HYP']"
@@ -14516,11 +14516,11 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 "['HYP', 'STTC', 'MI']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
@@ -14537,8 +14537,8 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
@@ -14691,14 +14691,14 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['HYP']
 "['HYP', 'STTC']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['STTC']
@@ -14723,7 +14723,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['MI']
 ['MI']
@@ -14761,7 +14761,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['HYP']
 ['MI']
@@ -14772,7 +14772,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -14798,7 +14798,7 @@ diagnostic_superclass
 ['CD']
 ['CD']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC', 'MI']"
 ['NORM']
 []
@@ -14811,7 +14811,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'HYP']"
 ['NORM']
 ['STTC']
@@ -14833,11 +14833,11 @@ diagnostic_superclass
 "['CD', 'MI']"
 "['HYP', 'STTC']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -14859,7 +14859,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['CD', 'STTC']"
 "['HYP', 'STTC']"
@@ -14882,7 +14882,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
@@ -14903,7 +14903,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'STTC']"
 ['CD']
 ['NORM']
@@ -14930,7 +14930,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -14944,7 +14944,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
@@ -14967,12 +14967,12 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['MI']
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -15065,21 +15065,21 @@ diagnostic_superclass
 ['STTC']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 ['NORM']
 []
 ['STTC']
 ['CD']
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['CD']
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['HYP']
 ['MI']
@@ -15172,10 +15172,10 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -15213,7 +15213,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['STTC']
 "['CD', 'MI']"
@@ -15253,7 +15253,7 @@ diagnostic_superclass
 ['HYP']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
@@ -15280,7 +15280,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['HYP']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -15316,7 +15316,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 ['CD']
@@ -15498,7 +15498,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['CD']
@@ -15516,7 +15516,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['STTC']
@@ -15540,7 +15540,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['CD', 'HYP']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['CD']
 ['STTC']
@@ -15568,7 +15568,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['MI']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 "['CD', 'MI']"
 ['NORM']
@@ -15577,7 +15577,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 "['CD', 'MI']"
@@ -15651,7 +15651,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 ['MI']
@@ -15662,7 +15662,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 "['CD', 'HYP']"
@@ -15680,7 +15680,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'MI']"
@@ -15692,7 +15692,7 @@ diagnostic_superclass
 ['STTC']
 ['MI']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -15708,7 +15708,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'STTC']"
 "['CD', 'STTC']"
 ['NORM']
@@ -15720,7 +15720,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -15736,7 +15736,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'HYP']"
+"['HYP', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -15765,7 +15765,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'STTC']"
 "['HYP', 'STTC']"
 "['CD', 'STTC']"
@@ -15814,7 +15814,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -15956,7 +15956,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['HYP']
 "['HYP', 'MI']"
 ['NORM']
@@ -15978,10 +15978,10 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
 ['NORM']
@@ -15996,11 +15996,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -16041,7 +16041,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 ['NORM']
@@ -16050,8 +16050,8 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
-"['HYP', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -16117,7 +16117,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
@@ -16134,7 +16134,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['STTC']
@@ -16150,7 +16150,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['HYP']
 ['NORM']
 ['NORM']
@@ -16161,19 +16161,19 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['CD', 'MI']"
 "['HYP', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['MI']
 ['NORM']
 "['CD', 'STTC']"
 ['MI']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -16224,7 +16224,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -16250,7 +16250,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 "['STTC', 'MI']"
@@ -16276,15 +16276,15 @@ diagnostic_superclass
 []
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['MI']
@@ -16297,7 +16297,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -16318,18 +16318,18 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['CD', 'STTC']"
 ['NORM']
 []
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 "['CD', 'STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -16361,7 +16361,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['CD']
 "['CD', 'MI']"
 "['CD', 'MI']"
@@ -16385,7 +16385,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -16422,7 +16422,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'HYP']"
 ['MI']
 ['CD']
@@ -16450,7 +16450,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 []
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -16473,7 +16473,7 @@ diagnostic_superclass
 ['MI']
 ['HYP']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
@@ -16486,7 +16486,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['STTC']
 ['NORM']
@@ -16505,7 +16505,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -16516,7 +16516,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 "['CD', 'STTC']"
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -16571,7 +16571,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
@@ -16580,7 +16580,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['STTC']
 ['STTC']
@@ -16589,7 +16589,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -16622,7 +16622,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['HYP']
 ['NORM']
 ['MI']
@@ -16630,7 +16630,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -16664,14 +16664,14 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['MI']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['STTC']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['MI']
 ['NORM']
@@ -16709,7 +16709,7 @@ diagnostic_superclass
 ['CD']
 []
 ['NORM']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['MI']
 ['STTC']
 "['CD', 'MI']"
@@ -16751,7 +16751,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
@@ -16779,7 +16779,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -16806,14 +16806,14 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC']"
 "['CD', 'MI']"
 ['STTC']
@@ -16821,7 +16821,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'STTC', 'MI']"
-"['NORM', 'STTC', 'CD']"
+"['CD', 'STTC', 'NORM']"
 "['CD', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
@@ -16846,13 +16846,13 @@ diagnostic_superclass
 ['MI']
 ['CD']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 "['CD', 'HYP']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['NORM']
@@ -16883,7 +16883,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['MI']
 ['NORM']
@@ -16897,7 +16897,7 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['HYP']
 "['HYP', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['STTC', 'MI']"
 ['HYP']
 ['NORM']
@@ -16917,7 +16917,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['HYP']
 ['CD']
 ['CD']
@@ -16934,9 +16934,9 @@ diagnostic_superclass
 "['CD', 'STTC']"
 "['HYP', 'MI']"
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 ['MI']
 ['NORM']
 "['HYP', 'STTC', 'MI']"
@@ -16962,7 +16962,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -16977,7 +16977,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'HYP']"
 ['NORM']
 ['MI']
@@ -17013,7 +17013,7 @@ diagnostic_superclass
 []
 "['HYP', 'MI']"
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 "['CD', 'MI']"
 ['NORM']
@@ -17094,11 +17094,11 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 "['CD', 'MI']"
 ['STTC']
@@ -17130,7 +17130,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 "['HYP', 'STTC']"
@@ -17153,7 +17153,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -17170,7 +17170,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -17189,7 +17189,7 @@ diagnostic_superclass
 ['CD']
 ['HYP']
 "['CD', 'STTC']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['NORM']
 ['NORM']
@@ -17300,10 +17300,10 @@ diagnostic_superclass
 "['CD', 'STTC']"
 "['HYP', 'STTC']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'HYP']"
@@ -17312,7 +17312,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -17340,7 +17340,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['MI']
 ['CD']
@@ -17395,7 +17395,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
@@ -17406,9 +17406,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['HYP']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 "['STTC', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 "['HYP', 'STTC', 'MI']"
 ['STTC']
@@ -17423,7 +17423,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['MI']
 ['NORM']
@@ -17455,7 +17455,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
@@ -17477,14 +17477,14 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['STTC']
-"['NORM', 'STTC']"
+"['STTC', 'NORM']"
 "['HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
 ['MI']
 ['STTC']
 "['STTC', 'MI']"
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -17579,7 +17579,7 @@ diagnostic_superclass
 ['CD']
 ['HYP']
 ['CD']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
@@ -17600,7 +17600,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 "['CD', 'HYP']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'HYP']"
 ['NORM']
 ['NORM']
@@ -17650,15 +17650,15 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'NORM']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -17669,7 +17669,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['NORM']
 ['NORM']
@@ -17694,7 +17694,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -17743,7 +17743,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 "['CD', 'MI']"
@@ -17763,7 +17763,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -17784,9 +17784,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['NORM']
 "['HYP', 'MI']"
@@ -17805,7 +17805,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -17836,7 +17836,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 "['HYP', 'STTC']"
 ['NORM']
@@ -17847,9 +17847,9 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['CD']
 ['NORM']
@@ -17860,7 +17860,7 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -17869,7 +17869,7 @@ diagnostic_superclass
 ['STTC']
 ['CD']
 ['HYP']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['MI']
 ['NORM']
@@ -17890,7 +17890,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 "['HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
@@ -17908,7 +17908,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['NORM']
@@ -17921,7 +17921,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 "['CD', 'MI']"
 ['NORM']
 ['STTC']
@@ -17956,13 +17956,13 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'HYP']"
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -18013,7 +18013,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['MI']
 ['NORM']
@@ -18120,7 +18120,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -18225,18 +18225,18 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
-"['NORM', 'STTC']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['STTC', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['CD']
 "['CD', 'STTC']"
@@ -18248,7 +18248,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
@@ -18269,7 +18269,7 @@ diagnostic_superclass
 ['CD']
 ['STTC']
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -18292,7 +18292,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -18309,8 +18309,8 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 "['CD', 'STTC']"
-"['HYP', 'STTC', 'CD', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['HYP']
@@ -18330,7 +18330,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['CD']
@@ -18350,15 +18350,15 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'HYP', 'STTC']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -18379,7 +18379,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'HYP']"
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['STTC']
@@ -18392,7 +18392,7 @@ diagnostic_superclass
 ['HYP']
 []
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 "['CD', 'MI']"
@@ -18417,7 +18417,7 @@ diagnostic_superclass
 ['CD']
 "['CD', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['CD']
 ['MI']
 ['NORM']
@@ -18428,7 +18428,7 @@ diagnostic_superclass
 []
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['MI']
 ['MI']
@@ -18449,7 +18449,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 []
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -18471,7 +18471,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['MI']
 ['NORM']
@@ -18495,7 +18495,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 ['STTC']
 "['CD', 'MI']"
@@ -18526,7 +18526,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['STTC']
 "['CD', 'MI']"
@@ -18548,7 +18548,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -18594,7 +18594,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 "['CD', 'MI']"
 ['STTC']
@@ -18671,7 +18671,7 @@ diagnostic_superclass
 ['STTC']
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC', 'MI']"
 ['STTC']
 []
@@ -18706,11 +18706,11 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['NORM']
@@ -18732,7 +18732,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 "['CD', 'STTC', 'MI']"
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -18740,9 +18740,9 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['CD']
@@ -18769,7 +18769,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC', 'MI']"
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['STTC']
 "['STTC', 'MI']"
@@ -18782,7 +18782,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['CD']
 ['NORM']
@@ -18793,7 +18793,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['CD', 'MI']"
 ['HYP']
 "['CD', 'STTC']"
@@ -18803,9 +18803,9 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -18813,7 +18813,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -18867,7 +18867,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 []
 ['NORM']
@@ -18923,7 +18923,7 @@ diagnostic_superclass
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 []
@@ -18932,7 +18932,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['CD']
 ['NORM']
@@ -18941,7 +18941,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 "['CD', 'MI']"
@@ -18974,7 +18974,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['MI']
@@ -18989,7 +18989,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 "['CD', 'STTC']"
 ['NORM']
@@ -19030,7 +19030,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'HYP']"
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 ['STTC']
@@ -19152,7 +19152,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -19207,7 +19207,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['HYP']
 ['NORM']
 ['STTC']
@@ -19227,7 +19227,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 ['MI']
@@ -19287,7 +19287,7 @@ diagnostic_superclass
 ['NORM']
 "['STTC', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['MI']
 ['CD']
@@ -19300,7 +19300,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['STTC']
 ['MI']
@@ -19316,7 +19316,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['HYP']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 []
 ['MI']
@@ -19329,7 +19329,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 "['STTC', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['MI']
 ['STTC']
@@ -19367,7 +19367,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC']"
 ['MI']
 ['NORM']
@@ -19399,17 +19399,17 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['CD']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 ['NORM']
 ['CD']
 ['CD']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['CD']
@@ -19421,7 +19421,7 @@ diagnostic_superclass
 ['NORM']
 "['STTC', 'MI']"
 "['CD', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 "['CD', 'STTC']"
 "['HYP', 'STTC', 'MI']"
@@ -19439,7 +19439,7 @@ diagnostic_superclass
 ['STTC']
 ['CD']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 "['HYP', 'STTC']"
 "['HYP', 'STTC']"
@@ -19471,7 +19471,7 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 "['CD', 'STTC']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 []
 ['NORM']
@@ -19496,7 +19496,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['NORM']
 ['CD']
@@ -19504,7 +19504,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -19526,7 +19526,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -19535,7 +19535,7 @@ diagnostic_superclass
 ['MI']
 "['CD', 'MI']"
 ['HYP']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['MI']
@@ -19579,7 +19579,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['MI']
 ['MI']
@@ -19646,9 +19646,9 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['STTC']
 ['CD']
 ['STTC']
@@ -19674,7 +19674,7 @@ diagnostic_superclass
 ['CD']
 "['HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 []
 ['NORM']
@@ -19722,7 +19722,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -19743,7 +19743,7 @@ diagnostic_superclass
 "['CD', 'MI']"
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['MI']
 "['CD', 'HYP']"
@@ -19784,7 +19784,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 ['STTC']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -19797,7 +19797,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['STTC']
 ['NORM']
@@ -19821,7 +19821,7 @@ diagnostic_superclass
 ['CD']
 "['CD', 'MI']"
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 []
 ['NORM']
 "['STTC', 'MI']"
@@ -19860,7 +19860,7 @@ diagnostic_superclass
 ['HYP']
 ['MI']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -19925,7 +19925,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['HYP', 'STTC']"
 "['CD', 'HYP']"
 ['MI']
@@ -19945,7 +19945,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -19961,7 +19961,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['STTC', 'MI']"
 "['HYP', 'MI']"
 ['STTC']
@@ -20074,7 +20074,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -20092,12 +20092,12 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 "['HYP', 'STTC', 'MI']"
@@ -20107,10 +20107,10 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['STTC']
 ['MI']
@@ -20161,20 +20161,20 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 ['NORM']
 ['STTC']
 ['STTC']
 ['STTC']
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 "['HYP', 'STTC']"
 []
 ['HYP']
 ['STTC']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['NORM']
 ['STTC']
@@ -20186,7 +20186,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -20197,7 +20197,7 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['NORM']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['MI']
 "['HYP', 'STTC', 'MI']"
 "['STTC', 'MI']"
@@ -20234,7 +20234,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC', 'MI']"
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
@@ -20255,7 +20255,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['STTC']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC']"
 ['NORM']
 ['NORM']
@@ -20342,7 +20342,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['MI']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 "['STTC', 'MI']"
 ['STTC']
@@ -20438,7 +20438,7 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['NORM']
@@ -20552,12 +20552,12 @@ diagnostic_superclass
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
-"['HYP', 'CD', 'MI']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 "['CD', 'MI']"
 ['HYP']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 "['STTC', 'MI']"
@@ -20673,7 +20673,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['HYP', 'STTC']"
 ['NORM']
@@ -20703,8 +20703,8 @@ diagnostic_superclass
 "['CD', 'STTC']"
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'MI', 'HYP']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -20734,7 +20734,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['STTC']
 []
@@ -20765,14 +20765,14 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['CD']
 []
 "['CD', 'MI']"
 ['HYP']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 ['NORM']
 ['STTC']
@@ -20810,7 +20810,7 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['HYP', 'STTC', 'MI']"
 ['NORM']
 ['STTC']
@@ -20822,7 +20822,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['MI']
 "['CD', 'MI']"
@@ -20855,7 +20855,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['CD']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['STTC', 'MI']"
@@ -20907,7 +20907,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 "['STTC', 'MI']"
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 "['HYP', 'STTC']"
 "['CD', 'HYP']"
@@ -20917,7 +20917,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 "['STTC', 'MI']"
 "['CD', 'MI']"
@@ -20957,7 +20957,7 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 ['MI']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['NORM']
 "['CD', 'STTC', 'MI']"
@@ -20990,7 +20990,7 @@ diagnostic_superclass
 ['NORM']
 ['MI']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 "['CD', 'MI']"
@@ -21001,7 +21001,7 @@ diagnostic_superclass
 "['CD', 'HYP']"
 ['NORM']
 "['CD', 'STTC', 'MI']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 ['NORM']
 "['STTC', 'MI']"
@@ -21010,7 +21010,7 @@ diagnostic_superclass
 "['STTC', 'MI']"
 "['CD', 'STTC']"
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['MI']
 ['NORM']
 ['MI']
@@ -21019,7 +21019,7 @@ diagnostic_superclass
 ['MI']
 ['MI']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'MI']"
 ['NORM']
 "['HYP', 'STTC']"
@@ -21055,7 +21055,7 @@ diagnostic_superclass
 ['MI']
 ['CD']
 ['NORM']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['STTC']
 ['NORM']
@@ -21075,7 +21075,7 @@ diagnostic_superclass
 ['MI']
 ['CD']
 ['STTC']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['STTC']
 ['STTC']
 ['NORM']
@@ -21157,7 +21157,7 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['STTC']
-"['CD', 'MI', 'HYP']"
+"['CD', 'HYP', 'MI']"
 ['NORM']
 ['NORM']
 "['CD', 'MI']"
@@ -21176,7 +21176,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['NORM']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['CD', 'MI']"
 ['NORM']
@@ -21273,7 +21273,7 @@ diagnostic_superclass
 []
 ['NORM']
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 "['CD', 'STTC', 'MI']"
 ['NORM']
 ['CD']
@@ -21313,7 +21313,7 @@ diagnostic_superclass
 ['MI']
 ['HYP']
 "['HYP', 'STTC']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -21338,7 +21338,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD', 'MI']"
+"['CD', 'HYP', 'STTC', 'MI']"
 ['NORM']
 ['CD']
 ['NORM']
@@ -21348,9 +21348,9 @@ diagnostic_superclass
 ['NORM']
 ['NORM']
 "['HYP', 'STTC']"
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
-"['HYP', 'CD']"
+"['CD', 'HYP']"
 ['NORM']
 ['CD']
 "['CD', 'MI']"
@@ -21391,7 +21391,7 @@ diagnostic_superclass
 ['STTC']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 ['NORM']
@@ -21428,14 +21428,14 @@ diagnostic_superclass
 ['MI']
 ['NORM']
 ['CD']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['STTC']
 ['STTC']
 ['NORM']
 "['CD', 'MI']"
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['CD', 'MI']"
 ['NORM']
 []
@@ -21447,12 +21447,12 @@ diagnostic_superclass
 ['CD']
 ['MI']
 ['MI']
-"['HYP', 'STTC', 'CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'HYP', 'STTC', 'MI']"
+"['CD', 'NORM']"
 "['STTC', 'MI']"
 []
 "['CD', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 "['CD', 'MI']"
 ['NORM']
@@ -21484,8 +21484,8 @@ diagnostic_superclass
 ['MI']
 []
 ['HYP']
-"['NORM', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
+"['CD', 'NORM']"
 ['NORM']
 ['MI']
 ['MI']
@@ -21523,7 +21523,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'STTC']"
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['STTC']
 "['HYP', 'STTC']"
 ['NORM']
@@ -21561,7 +21561,7 @@ diagnostic_superclass
 ['HYP']
 ['NORM']
 ['STTC']
-"['CD', 'STTC', 'HYP']"
+"['CD', 'HYP', 'STTC']"
 []
 ['MI']
 "['STTC', 'MI']"
@@ -21589,8 +21589,8 @@ diagnostic_superclass
 ['MI']
 "['STTC', 'MI']"
 ['MI']
-"['HYP', 'CD']"
-"['NORM', 'CD']"
+"['CD', 'HYP']"
+"['CD', 'NORM']"
 ['MI']
 "['CD', 'MI']"
 "['CD', 'STTC']"
@@ -21604,7 +21604,7 @@ diagnostic_superclass
 ['NORM']
 ['STTC']
 "['CD', 'HYP']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['MI']
 ['NORM']
 ['MI']
@@ -21635,7 +21635,7 @@ diagnostic_superclass
 ['MI']
 "['HYP', 'STTC']"
 "['CD', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['CD']
 ['MI']
 ['MI']
@@ -21672,7 +21672,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 ['CD']
-"['CD', 'STTC', 'MI', 'HYP']"
+"['CD', 'HYP', 'STTC', 'MI']"
 "['HYP', 'STTC']"
 ['MI']
 ['STTC']
@@ -21684,7 +21684,7 @@ diagnostic_superclass
 ['NORM']
 "['CD', 'MI']"
 ['STTC']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['STTC']
 ['NORM']
 ['NORM']
@@ -21708,7 +21708,7 @@ diagnostic_superclass
 ['CD']
 ['NORM']
 ['NORM']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['MI']
 ['NORM']
@@ -21726,7 +21726,7 @@ diagnostic_superclass
 "['HYP', 'STTC']"
 "['CD', 'MI']"
 ['MI']
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['MI']
 "['HYP', 'STTC']"
 ['STTC']
@@ -21741,7 +21741,7 @@ diagnostic_superclass
 ['MI']
 ['STTC']
 "['STTC', 'MI']"
-"['HYP', 'STTC', 'CD']"
+"['CD', 'HYP', 'STTC']"
 ['NORM']
 ['NORM']
 "['CD', 'STTC', 'MI']"
@@ -21781,7 +21781,7 @@ diagnostic_superclass
 ['NORM']
 ['CD']
 ['MI']
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['MI']
@@ -21789,7 +21789,7 @@ diagnostic_superclass
 ['MI']
 "['STTC', 'MI']"
 "['STTC', 'MI']"
-"['NORM', 'CD']"
+"['CD', 'NORM']"
 ['NORM']
 ['NORM']
 ['CD']

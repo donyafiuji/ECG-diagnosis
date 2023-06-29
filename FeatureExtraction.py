@@ -15,32 +15,33 @@ class QRS():
 
 
     def __init__(self):
-        
-        plt.figure(figsize=(10, 2))
+
+
+        self.max_bpm = 200
+        self.sampling_rate = 100 
+
+
 
 
     # wavelet transform, thresholding, and peak detection to extract R-peaks
     
-    def peak_detection(self, sig):
+    def R_peak_detection(self, original_signal):
 
         
-
-        # Computation the wavelet coefficients using the Stationary Wavelet Transform
-        coeffs = pw.swt(sig, wavelet = "db4", level=3, start_level=0, axis=-1)
-        d3 = coeffs[2][1] ##2nd level detail coefficients
-
-        sample_rate = 100
-        max_bpm = 66 
+        ecg_signal = original_signal
+        ## Stationary Wavelet Transform
+        coeffs = pw.swt(ecg_signal, wavelet = "haar", level=2, start_level=0, axis=-1)
+        d2 = coeffs[1][1] ##2nd level detail coefficients
 
 
         ## Threhold the detail coefficients
-        avg = np.mean(d3)
-        std = np.std(d3)
-        sig_thres = [abs(i) if abs(i)>4.0*std else 0 for i in d3-avg]
+        avg = np.mean(d2)
+        std = np.std(d2)
+        sig_thres = [abs(i) if abs(i)>2.0*std else 0 for i in d2-avg]
 
         ## Find the maximum modulus in each window
-        window = int((60.0/max_bpm)*sample_rate)
-        sig_len = len(sig)
+        window = int((60.0/self.max_bpm)*self.sampling_rate)
+        sig_len = len(ecg_signal)
         n_windows = int(sig_len/window)
         modulus,qrs = [],[]
 
@@ -54,7 +55,7 @@ class QRS():
 
 
         ## Merge if within max bpm
-        merge_width = int((0.2)*sample_rate)
+        merge_width = int((0.2)*self.sampling_rate)
         i=0
         while i < len(modulus)-1:
             ann = modulus[i][0]
@@ -65,25 +66,29 @@ class QRS():
                     
             qrs.append(ann)
             i+=1 
-
-        
         ## Pin point exact qrs peak
-        window_check = int(sample_rate/6)
+        window_check = int(self.sampling_rate/6)
         #signal_normed = np.absolute((signal-np.mean(signal))/(max(signal)-min(signal)))
-        r_peaks = []
+        r_peaks = [0]*len(qrs)
 
-        for loc in qrs:
+        for i,loc in enumerate(qrs):
             start = max(0,loc-window_check)
             end = min(sig_len,loc+window_check)
-            wdw = np.absolute(sig[start:end] - np.mean(sig[start:end]))
+            wdw = np.absolute(ecg_signal[start:end] - np.mean(ecg_signal[start:end]))
             pk = np.argmax(wdw)
-
-            if wdw[pk] >= 0.3:
-                r_peaks.append(start + pk)
+            r_peaks[i] = start+pk
 
 
-        plt.plot(sig, color='blue', label='ECG Signal')
-        plt.plot(r_peaks, sig[r_peaks], 'ro', markersize=5, label='R-Peaks')
-        plt.show()
+        # time = np.arange(len(ecg_signal)) / self.sampling_rate    
+        # plt.figure(figsize=(20,5))
+        # plt.plot(time, ecg_signal, label='ECG Signal')
+        # plt.scatter(time[r_peaks], ecg_signal[r_peaks], c='r', marker='o', label='R-peaks')
+        # plt.xlabel('Time (s)')
+        # plt.ylabel('Amplitude')
+        # plt.title(f'ECG Signal {0} with Detected R-peaks')
+        # plt.legend()
+        # plt.grid(True)
+        # plt.show()
+
 
         return r_peaks

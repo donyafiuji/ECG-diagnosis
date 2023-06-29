@@ -4,6 +4,7 @@ import pandas as pd
 import ast
 import scipy.signal as signal
 import matplotlib.pyplot as plt
+from skimage.restoration import denoise_wavelet
 
 
 """ - Nyquist frequency is the maximum frequency that can be accurately represented
@@ -127,3 +128,24 @@ class preprocess():
         # plt.show()
 
         return MovingAvarage_filtered
+
+
+
+    
+
+    def wavelet_denoising(self, original_signal):
+
+        denoised = denoise_wavelet(original_signal, method='BayesShrink', mode='soft', wavelet_levels=3, wavelet='sym8', rescale_sigma='True')
+        
+        return denoised
+    
+
+
+
+    def noise_representation(self, firstsignal, secondsignal):
+
+        noise = firstsignal - secondsignal
+        plt.figure(figsize=(20,5))
+        plt.plot(firstsignal, color='b', label='Original Signal')
+        plt.plot(noise, color='red', label='Noise')
+        plt.show()

@@ -92,3 +92,14 @@ class QRS():
 
 
         return r_peaks
+    
+
+
+
+    """ Computes the differences between consecutive R peak locations to obtain the RR intervals. """
+
+    def RR_Intervals(self, Rpeaks):
+
+        intervals = np.diff(Rpeaks) / self.sampling_rate
+
+        return intervals

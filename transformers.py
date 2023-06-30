@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 
 
 
+""" 
+Fourier transform is the most convenient tool when signal frequencies do not change in time.
+if the frequencies that make up the signal vary over time, the most performant technique is a wavelet transform. 
+
+"""
+
 
 class Transformers(): 
 

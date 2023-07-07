@@ -10,3 +10,5 @@
 /records100
 /records500
 /*.npy
+/*.zip
+/records.zip

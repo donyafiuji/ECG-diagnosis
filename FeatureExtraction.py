@@ -3,7 +3,9 @@ from scipy.signal import cwt, find_peaks
 import matplotlib.pyplot as plt
 import pywt as pw
 import random
-
+from scipy.stats import describe
+from scipy.interpolate import interp1d
+from scipy import signal
 
 
 
@@ -79,16 +81,16 @@ class QRS():
             r_peaks[i] = start+pk
 
 
-        # time = np.arange(len(ecg_signal)) / self.sampling_rate    
-        # plt.figure(figsize=(20,5))
-        # plt.plot(time, ecg_signal, label='ECG Signal')
-        # plt.scatter(time[r_peaks], ecg_signal[r_peaks], c='r', marker='o', label='R-peaks')
-        # plt.xlabel('Time (s)')
-        # plt.ylabel('Amplitude')
-        # plt.title(f'ECG Signal {0} with Detected R-peaks')
-        # plt.legend()
-        # plt.grid(True)
-        # plt.show()
+#         time = np.arange(len(ecg_signal)) / self.sampling_rate    
+#         plt.figure(figsize=(20,5))
+#         plt.plot(time, ecg_signal, label='ECG Signal')
+#         plt.scatter(time[r_peaks], ecg_signal[r_peaks], c='r', marker='o', label='R-peaks')
+#         plt.xlabel('Time (s)')
+#         plt.ylabel('Amplitude')
+#         plt.title(f'ECG Signal {0} with Detected R-peaks')
+#         plt.legend()
+#         plt.grid(True)
+#         plt.show()
 
 
         return r_peaks
@@ -103,3 +105,61 @@ class QRS():
         intervals = np.diff(Rpeaks) / self.sampling_rate
 
         return intervals
+    
+
+
+
+    """ just the lead II is considered for thr calculations: """
+
+    def calculate_hrv_features(self, rr_intervals):
+
+
+        """ basic HRV features """
+
+        mean_rr = np.mean(rr_intervals)
+        std_rr = np.std(rr_intervals)
+        rmssd = np.sqrt(np.mean(np.diff(rr_intervals) ** 2))
+        nn50 = np.sum(np.abs(np.diff(rr_intervals)) > 50)
+        pnn50 = nn50 / len(rr_intervals) * 100.0
+
+        # Compute frequency domain HRV features using Welch's method
+        freq, psd = signal.welch(rr_intervals, fs=1.0)
+
+        # Compute power in different frequency bands
+        vlf = np.trapz(psd[(freq >= 0.0033) & (freq < 0.04)])
+        lf = np.trapz(psd[(freq >= 0.04) & (freq < 0.15)])
+        hf = np.trapz(psd[(freq >= 0.15) & (freq <= 0.4)])
+
+        # Compute normalized power in LF and HF bands
+        total_power = vlf + lf + hf
+        lf_norm = lf / total_power
+        hf_norm = hf / total_power
+
+        # Compute additional transformed features
+        lf_hf_ratio = lf / hf
+        lf_hf_ratio_log = np.log(lf_hf_ratio)
+        total_power_log = np.log(total_power)
+        lf_hf_ratio_log_norm = (lf_hf_ratio_log - np.mean(lf_hf_ratio_log)) / np.std(lf_hf_ratio_log)
+
+        # Collect all HRV features
+        hrv_features = [
+            mean_rr,
+            std_rr,
+            rmssd, 
+            nn50, 
+            pnn50, 
+            total_power, 
+            vlf, 
+            lf, 
+            hf, 
+            lf_norm,
+            hf_norm, 
+            lf_hf_ratio, 
+            lf_hf_ratio_log, 
+            total_power_log, 
+            lf_hf_ratio_log_norm
+        ]
+        
+
+
+        return hrv_features

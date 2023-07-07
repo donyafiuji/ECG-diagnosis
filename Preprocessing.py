@@ -5,10 +5,15 @@ import ast
 import scipy.signal as signal
 import matplotlib.pyplot as plt
 from skimage.restoration import denoise_wavelet
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
 
 
 """ - Nyquist frequency is the maximum frequency that can be accurately represented
  in a digital signal sampled at a given rate """
+
 
 
 
@@ -36,7 +41,20 @@ class preprocess():
             else:
                 data = [wfdb.rdsamp(f) for f in df.filename_hr]
             data = np.array([signal for signal, meta in data])
+
             return data
+        
+
+
+
+        def aggregate_diagnostic(y_dic):
+            tmp = []
+            
+            for key in y_dic.keys():
+                if key in agg_df.index:
+                    tmp.append(agg_df.loc[key].diagnostic_class)
+            return list(set(tmp))
+
         
 
         # load and convert annotation data
@@ -50,15 +68,7 @@ class preprocess():
         agg_df = pd.read_csv('scp_statements.csv', index_col=0)
         agg_df = agg_df[agg_df.diagnostic == 1]
 
-        def aggregate_diagnostic(y_dic):
-            tmp = []
-            
-            for key in y_dic.keys():
-                if key in agg_df.index:
-                    tmp.append(agg_df.loc[key].diagnostic_class)
-            return list(set(tmp))
-
-        # Apply diagnostic superclass
+        """ it applies the aggregate_diagnostic function to each value in the 'scp_codes' column """
         Y['diagnostic_superclass'] = Y.scp_codes.apply(aggregate_diagnostic)
 
         # Split data into train and test
@@ -70,6 +80,7 @@ class preprocess():
         X_test = X[np.where(Y.strat_fold == test_fold)]
         y_test = Y[Y.strat_fold == test_fold].diagnostic_superclass
 
+#         print(agg_df)
         return X_train, y_train, X_test, y_test
 
 
@@ -142,6 +153,7 @@ class preprocess():
 
 
 
+
     def noise_representation(self, firstsignal, secondsignal):
 
         noise = firstsignal - secondsignal
@@ -149,3 +161,54 @@ class preprocess():
         plt.plot(firstsignal, color='b', label='Original Signal')
         plt.plot(noise, color='red', label='Noise')
         plt.show()
+
+
+
+
+    def preprocessData(self, X_train, y_train, X_test):
+        # Preprocess the data
+        # Reshape the training signals into a 2D array
+        train_signals = X_train.reshape((X_train.shape[0], -1))
+
+        # Reshape the test signals into a 2D array
+        test_signals = X_test.reshape((X_test.shape[0], -1))
+
+        # Handle missing values in the training signals
+        imputer = SimpleImputer(strategy='mean')
+        train_signals = imputer.fit_transform(train_signals)
+
+        # Handle missing values in the test signals
+        test_signals = imputer.transform(test_signals)
+
+        # Standardize the features
+        scaler = StandardScaler()
+        train_signals = scaler.fit_transform(train_signals)
+        test_signals = scaler.transform(test_signals)
+
+        return train_signals, y_train, test_signals
+    
+
+
+
+    def classifyData(self, X_train, y_train, X_test, classifier):
+
+        # Convert the target labels to a list
+        y_train_list = [label[0] if len(label) > 0 else 'None' for label in y_train]
+
+        # Convert the target labels to a binary array
+        mlb = MultiLabelBinarizer()
+        y_train_bin = mlb.fit_transform(y_train_list)
+
+        # Preprocess the data
+        train_signals, _, test_signals = self.preprocessData(X_train, y_train_bin, X_test)
+
+        # Flatten the target variable
+        y_train_flat = y_train_bin.flatten()
+
+        # Train the classifier
+        classifier.fit(train_signals, y_train_flat)
+
+        # Predict on the test data
+        y_pred = classifier.predict(test_signals)
+
+        return y_pred

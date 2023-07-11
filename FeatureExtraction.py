@@ -81,16 +81,16 @@ class QRS():
             r_peaks[i] = start+pk
 
 
-#         time = np.arange(len(ecg_signal)) / self.sampling_rate    
-#         plt.figure(figsize=(20,5))
-#         plt.plot(time, ecg_signal, label='ECG Signal')
-#         plt.scatter(time[r_peaks], ecg_signal[r_peaks], c='r', marker='o', label='R-peaks')
-#         plt.xlabel('Time (s)')
-#         plt.ylabel('Amplitude')
-#         plt.title(f'ECG Signal {0} with Detected R-peaks')
-#         plt.legend()
-#         plt.grid(True)
-#         plt.show()
+        # time = np.arange(len(ecg_signal)) / self.sampling_rate    
+        # plt.figure(figsize=(20,5))
+        # plt.plot(time, ecg_signal, label='ECG Signal')
+        # plt.scatter(time[r_peaks], ecg_signal[r_peaks], c='r', marker='o', label='R-peaks')
+        # plt.xlabel('Time (s)')
+        # plt.ylabel('Amplitude')
+        # plt.title(f'ECG Signal {0} with Detected R-peaks')
+        # plt.legend()
+        # plt.grid(True)
+        # plt.show()
 
 
         return r_peaks

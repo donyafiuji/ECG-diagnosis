@@ -62,7 +62,9 @@ class preprocess():
         Y.scp_codes = Y.scp_codes.apply(lambda x: ast.literal_eval(x))
 
         # Load raw signal data
-        X = load_raw_data(Y)
+        signals = load_raw_data(Y)
+        # lowering the precion
+        # signals = signals.astype('float32')
 
         # Load scp_statements.csv for diagnostic aggregation
         agg_df = pd.read_csv('scp_statements.csv', index_col=0)
@@ -70,6 +72,17 @@ class preprocess():
 
         """ it applies the aggregate_diagnostic function to each value in the 'scp_codes' column """
         Y['diagnostic_superclass'] = Y.scp_codes.apply(aggregate_diagnostic)
+
+
+        return signals, Y
+
+
+
+
+
+
+    def splitdata(self, X, Y):
+
 
         # Split data into train and test
         test_fold = 10
@@ -81,7 +94,10 @@ class preprocess():
         y_test = Y[Y.strat_fold == test_fold].diagnostic_superclass
 
 #         print(agg_df)
+
         return X_train, y_train, X_test, y_test
+    
+
 
 
 

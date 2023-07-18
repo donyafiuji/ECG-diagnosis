@@ -81,6 +81,13 @@ class QRS():
             r_peaks[i] = start+pk
 
 
+            # Calculate the R-R intervals in seconds using the sampling frequency
+        rr_intervals = []
+        for i in range(1, len(r_peaks)):
+            rr_interval = (r_peaks[i] - r_peaks[i-1]) / self.sampling_rate
+            rr_intervals.append(rr_interval)
+
+
         # time = np.arange(len(ecg_signal)) / self.sampling_rate    
         # plt.figure(figsize=(20,5))
         # plt.plot(time, ecg_signal, label='ECG Signal')
@@ -93,7 +100,7 @@ class QRS():
         # plt.show()
 
 
-        return r_peaks
+        return r_peaks, rr_intervals
     
 
 

@@ -32,7 +32,7 @@ class preprocess():
   
     """ prepare data and split them to test and train """
 
-    def loadData(self):
+    def loadSignal(self):
 
 
         def load_raw_data(df):
@@ -43,8 +43,25 @@ class preprocess():
             data = np.array([signal for signal, meta in data])
 
             return data
-        
 
+
+        # load and convert annotation data
+        Y = pd.read_csv('ptbxl_database.csv', index_col='ecg_id')
+        Y.scp_codes = Y.scp_codes.apply(lambda x: ast.literal_eval(x))
+
+        # Load raw signal data
+        signals = load_raw_data(Y)
+
+
+
+        return signals
+
+
+
+
+
+
+    def loadStatement(self):
 
 
         def aggregate_diagnostic(y_dic):
@@ -62,7 +79,6 @@ class preprocess():
         Y.scp_codes = Y.scp_codes.apply(lambda x: ast.literal_eval(x))
 
         # Load raw signal data
-        signals = load_raw_data(Y)
         # lowering the precion
         # signals = signals.astype('float32')
 
@@ -74,7 +90,7 @@ class preprocess():
         Y['diagnostic_superclass'] = Y.scp_codes.apply(aggregate_diagnostic)
 
 
-        return signals, Y
+        return Y
 
 
 

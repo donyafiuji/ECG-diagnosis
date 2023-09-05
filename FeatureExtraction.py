@@ -144,9 +144,9 @@ class QRS():
 
         # Compute additional transformed features
         lf_hf_ratio = lf / hf
-        lf_hf_ratio_log = np.log(lf_hf_ratio)
-        total_power_log = np.log(total_power)
-        lf_hf_ratio_log_norm = (lf_hf_ratio_log - np.mean(lf_hf_ratio_log)) / np.std(lf_hf_ratio_log)
+        # lf_hf_ratio_log = np.log(lf_hf_ratio)
+        # total_power_log = np.log(total_power)
+        # lf_hf_ratio_log_norm = (lf_hf_ratio_log - np.mean(lf_hf_ratio_log)) / np.std(lf_hf_ratio_log)
 
         # Collect all HRV features
         hrv_features = [
@@ -162,11 +162,13 @@ class QRS():
             lf_norm,
             hf_norm, 
             lf_hf_ratio, 
-            lf_hf_ratio_log, 
-            total_power_log, 
-            lf_hf_ratio_log_norm
+            # lf_hf_ratio_log, 
+            # total_power_log, 
+            # lf_hf_ratio_log_norm
         ]
         
+        """ the lf_hf_ratio turned out to be inf and lf_hf_ratio_log_norm turned out Nan so i removed them from features"""
 
 
         return hrv_features
+        # return mean_rr

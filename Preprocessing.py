@@ -46,7 +46,7 @@ class preprocess():
 
 
         # load and convert annotation data
-        Y = pd.read_csv('/content/drive/MyDrive/ECG/ptbxl_database.csv', index_col='ecg_id')
+        Y = pd.read_csv('ptbxl_database.csv', index_col='ecg_id')
         Y.scp_codes = Y.scp_codes.apply(lambda x: ast.literal_eval(x))
 
         # Load raw signal data

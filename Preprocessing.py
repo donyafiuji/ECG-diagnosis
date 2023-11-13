@@ -197,6 +197,15 @@ class preprocess():
 
 
 
+    def signalshow(self, id):
+
+        plt.figure(figsize=(20,5))
+        plt.plot(id, color='b')
+        plt.show()
+
+
+
+
     def preprocessData(self, X_train, y_train, X_test):
         # Preprocess the data
         # Reshape the training signals into a 2D array

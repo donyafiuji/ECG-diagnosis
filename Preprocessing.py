@@ -192,6 +192,7 @@ class preprocess():
         plt.figure(figsize=(20,5))
         plt.plot(firstsignal, color='b', label='Original Signal')
         plt.plot(noise, color='red', label='Noise')
+        plt.legend()
         plt.show()
 
 
